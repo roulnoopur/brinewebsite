@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Restaurant — BRINE, Leith Edinburgh</title>
+  <meta name="description" content="The farm, the larder, the shore. Atmospheric imagery from BRINE, opening April 2028 on The Shore, Leith, Edinburgh.">
+  <meta name="theme-color" content="#0F2118">
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="BRINE">
+  <meta property="og:title"       content="The Restaurant — BRINE, Leith Edinburgh">
+  <meta property="og:description" content="The farm. The larder. The shore. BRINE opens April 2028 on The Shore, Leith.">
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:title" content="The Restaurant — BRINE, Leith Edinburgh">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="BRINE — Home">Brine</a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">The Restaurant</a></li>
+      <li><a href="team.html">The Team</a></li>
+      <li><a href="private-bookings.html">Private Bookings</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="reservations.html" class="nav-reserve">Reserve</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer" aria-hidden="true">
+    <ul role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">The Restaurant</a></li>
+      <li><a href="team.html">The Team</a></li>
+      <li><a href="private-bookings.html">Private Bookings</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="reservations.html" class="nav-reserve">Reserve a Table</a></li>
+    </ul>
+  </div>
+
+  <main id="main-content">
+
+    <header class="page-header fade-up">
+      <h1 class="display display--xl">The Restaurant</h1>
+      <hr class="rule rule--short" aria-hidden="true">
+      <p class="subtitle">The farm. The larder. The shore.</p>
+    </header>
+
+    <nav aria-label="Gallery categories">
+      <ul class="gallery-cats" role="list">
+        <li><button class="gallery-cat-btn active" data-cat="all">All</button></li>
+        <li><button class="gallery-cat-btn" data-cat="farm">The Farm</button></li>
+        <li><button class="gallery-cat-btn" data-cat="larder">The Fermentation Larder</button></li>
+        <li><button class="gallery-cat-btn" data-cat="shore">The Shore</button></li>
+        <li><button class="gallery-cat-btn" data-cat="dining">The Dining Room</button></li>
+      </ul>
+    </nav>
+
+    <div class="gallery-grid" role="list" aria-label="Atmospheric restaurant imagery">
+
+      <div class="gallery-item span-2 fade-up" data-cat="farm" role="listitem">
+        <div class="gallery-fill bg-farm-1" aria-label="The hydroponic farm — rows of sea herbs under grow lights">
+          <span class="gallery-watermark" aria-hidden="true">Grow</span>
+          <span class="gallery-sublabel">The Farm</span>
+          <span class="gallery-label">Hydroponic towers, kitchen level</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-up d1" data-cat="dining" role="listitem">
+        <div class="gallery-fill bg-dining-1" aria-label="The dining room at service, tables set, candlelight">
+          <span class="gallery-watermark" aria-hidden="true">Brine</span>
+          <span class="gallery-sublabel">The Dining Room</span>
+          <span class="gallery-label">Tables set for service</span>
+        </div>
+      </div>
+
+      <div class="gallery-item tall fade-up" data-cat="larder" role="listitem">
+        <div class="gallery-fill bg-larder-1" aria-label="Glass fermentation jars on shelves, amber and olive tones">
+          <span class="gallery-watermark" aria-hidden="true">Ferment</span>
+          <span class="gallery-sublabel">The Fermentation Larder</span>
+          <span class="gallery-label">26 active ferments</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-up d1" data-cat="shore" role="listitem">
+        <div class="gallery-fill bg-shore-1" aria-label="The Water of Leith at dusk, low light on the water">
+          <span class="gallery-watermark" aria-hidden="true">Shore</span>
+          <span class="gallery-sublabel">The Shore</span>
+          <span class="gallery-label">Water of Leith at dusk</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-up d2" data-cat="dining" role="listitem">
+        <div class="gallery-fill bg-dining-2" aria-label="The dining room interior, pre-service">
+          <span class="gallery-watermark" aria-hidden="true">Table</span>
+          <span class="gallery-sublabel">The Dining Room</span>
+          <span class="gallery-label">Pre-service, 58 The Shore</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-up" data-cat="farm" role="listitem">
+        <div class="gallery-fill bg-farm-2" aria-label="Close-up of micro herbs, wet from the morning harvest">
+          <span class="gallery-watermark" aria-hidden="true">Herb</span>
+          <span class="gallery-sublabel">The Farm</span>
+          <span class="gallery-label">Morning harvest, edible flowers</span>
+        </div>
+      </div>
+
+      <div class="gallery-item span-2 fade-up d1" data-cat="shore" role="listitem">
+        <div class="gallery-fill bg-shore-2" aria-label="Looking toward the restaurant from the waterfront, The Shore, Leith">
+          <span class="gallery-watermark" aria-hidden="true">Leith</span>
+          <span class="gallery-sublabel">The Shore</span>
+          <span class="gallery-label">58 The Shore, Leith, Edinburgh</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-up" data-cat="larder" role="listitem">
+        <div class="gallery-fill bg-larder-2" aria-label="A single fermentation crock, chalk-labelled, on a wooden shelf">
+          <span class="gallery-watermark" aria-hidden="true">Preserve</span>
+          <span class="gallery-sublabel">The Fermentation Larder</span>
+          <span class="gallery-label">Chalk-labelled crock, root cellar</span>
+        </div>
+      </div>
+
+      <div class="gallery-item fade-up d1" data-cat="dining" role="listitem">
+        <div class="gallery-fill bg-dining-3" aria-label="A single table, glassware, minimal dressing before service">
+          <span class="gallery-watermark" aria-hidden="true">Service</span>
+          <span class="gallery-sublabel">The Dining Room</span>
+          <span class="gallery-label">Set before service</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="concept" style="padding: 5rem 3rem;">
+      <a href="https://www.instagram.com/brineleith" class="btn btn--outline fade-up d1" target="_blank" rel="noopener noreferrer" aria-label="BRINE on Instagram (opens in new tab)">@brineleith</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <hr class="rule rule--short" aria-hidden="true" style="margin-bottom:2.5rem;">
+    <span class="footer-logo">Brine</span>
+    <hr class="rule rule--short" aria-hidden="true" style="margin-bottom:2rem;">
+    <p class="footer-address">58 The Shore, Leith<br>Edinburgh EH6 6RA</p>
+    <p class="footer-hours">
+      Wednesday–Sunday<br>
+      Lunch 12:00pm–3:00pm &nbsp;/&nbsp; Dinner 5:00pm–10:00pm
+    </p>
+    <a href="https://www.instagram.com/brineleith" class="footer-instagram" target="_blank" rel="noopener noreferrer" aria-label="BRINE on Instagram">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+      </svg>
+      @brineleith
+    </a>
+    <p class="footer-note">No walk-ins. Reservations only.</p>
+    <p class="footer-copy">&copy; BRINE 2028</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

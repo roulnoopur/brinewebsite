@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Private Bookings — BRINE, Leith Edinburgh</title>
+  <meta name="description" content="BRINE is available for exclusive hire on Tuesdays. Bespoke tasting menu experience for corporate dinners, private celebrations and private events. Enquire via the form.">
+  <meta name="theme-color" content="#0F2118">
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="BRINE">
+  <meta property="og:title"       content="Private Bookings — BRINE, Leith Edinburgh">
+  <meta property="og:description" content="BRINE is available for exclusive hire on Tuesdays. Bespoke tasting menu experience. Enquire for corporate dinners, private celebrations and private events.">
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:title" content="Private Bookings — BRINE, Leith Edinburgh">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="BRINE — Home">Brine</a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">The Restaurant</a></li>
+      <li><a href="team.html">The Team</a></li>
+      <li><a href="private-bookings.html">Private Bookings</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="reservations.html" class="nav-reserve">Reserve</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav-drawer" aria-hidden="true">
+    <ul role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">The Restaurant</a></li>
+      <li><a href="team.html">The Team</a></li>
+      <li><a href="private-bookings.html">Private Bookings</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="reservations.html" class="nav-reserve">Reserve a Table</a></li>
+    </ul>
+  </div>
+
+  <main id="main-content">
+
+    <header class="page-header fade-up">
+      <h1 class="display display--xl">Private Bookings</h1>
+      <hr class="rule rule--short" aria-hidden="true">
+    </header>
+
+    <div class="wrap--narrow" style="padding-bottom:7rem;">
+
+      <p class="res-intro fade-up">
+        BRINE is available for exclusive hire on Tuesdays. The full restaurant
+        is available as a private buyout for corporate dinners, private celebrations,
+        and bespoke events. Enquiries are welcome via the form below.
+      </p>
+
+      <hr class="rule" aria-hidden="true" style="margin-bottom:3rem;">
+
+      <div class="pdq-details fade-up">
+        <dl>
+          <dt>Availability</dt>
+          <dd>Tuesdays — full restaurant buyout<br>Wednesday–Sunday — full buyout on request, subject to availability</dd>
+          <dt>Menu</dt>
+          <dd>Bespoke tasting menu at £105 per head, plus supplements</dd>
+          <dt>Beverages</dt>
+          <dd>Wine pairing, cocktail pairing, and bespoke packages available on request</dd>
+        </dl>
+      </div>
+
+      <hr class="rule" aria-hidden="true" style="margin-bottom:3rem;">
+
+      <span class="section-label fade-up">Enquiry Form</span>
+
+      <form class="pdq-form fade-up d1" novalidate aria-label="Private booking enquiry form">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="full-name">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="full-name" name="full-name" autocomplete="name" required placeholder="Your full name">
+          </div>
+          <div class="form-group">
+            <label for="company">Company name</label>
+            <input type="text" id="company" name="company" autocomplete="organization" placeholder="Optional">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number <span class="req" aria-hidden="true">*</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="+44">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="date">Preferred date <span class="req" aria-hidden="true">*</span></label>
+            <input type="date" id="date" name="date" required min="2028-04-01">
+          </div>
+          <div class="form-group">
+            <label for="guests">Number of guests <span class="req" aria-hidden="true">*</span></label>
+            <input type="number" id="guests" name="guests" required min="2" placeholder="Number of guests">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="occasion">Occasion / event type <span class="req" aria-hidden="true">*</span></label>
+          <select id="occasion" name="occasion" required>
+            <option value="" disabled selected>Select an occasion</option>
+            <option value="corporate">Corporate dinner</option>
+            <option value="celebration">Private celebration</option>
+            <option value="launch">Product launch</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dietary">Dietary requirements or notes</label>
+          <textarea id="dietary" name="dietary" placeholder="Please note any dietary requirements, allergies, or other relevant information."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="source">How did you hear about us?</label>
+          <select id="source" name="source">
+            <option value="" disabled selected>Select an option</option>
+            <option value="word-of-mouth">Word of mouth</option>
+            <option value="press">Press</option>
+            <option value="instagram">Instagram</option>
+            <option value="opentable">OpenTable</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn btn--gold">Submit Enquiry</button>
+        </div>
+
+      </form>
+
+      <div class="form-success" role="alert" aria-live="polite">
+        <p class="form-success__title">Enquiry Received</p>
+        <hr class="rule rule--short" aria-hidden="true" style="margin-bottom:1.5rem;">
+        <p class="form-success__body">
+          Thank you. We will be in touch within 48 hours.<br>
+          For urgent requests please contact<br>
+          <a href="mailto:reservations@brineleith.co.uk" style="color:var(--gold); text-decoration:none;">reservations@brineleith.co.uk</a>
+        </p>
+      </div>
+
+      <p class="form-after-note fade-up">
+        We aim to respond to all enquiries within 48 hours.<br>
+        For urgent requests please contact us at
+        <a href="mailto:reservations@brineleith.co.uk">reservations@brineleith.co.uk</a>
+      </p>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <hr class="rule rule--short" aria-hidden="true" style="margin-bottom:2.5rem;">
+    <span class="footer-logo">Brine</span>
+    <hr class="rule rule--short" aria-hidden="true" style="margin-bottom:2rem;">
+    <p class="footer-address">58 The Shore, Leith<br>Edinburgh EH6 6RA</p>
+    <p class="footer-hours">
+      Wednesday–Sunday<br>
+      Lunch 12:00pm–3:00pm &nbsp;/&nbsp; Dinner 5:00pm–10:00pm
+    </p>
+    <a href="https://www.instagram.com/brineleith" class="footer-instagram" target="_blank" rel="noopener noreferrer" aria-label="BRINE on Instagram">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+      </svg>
+      @brineleith
+    </a>
+    <p class="footer-note">No walk-ins. Reservations only.</p>
+    <p class="footer-copy">&copy; BRINE 2028</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
