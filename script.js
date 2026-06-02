@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ── Gallery filter ────────────────────────────────────────── */
   const catBtns  = document.querySelectorAll('.gallery-cat-btn');
-  const galItems = document.querySelectorAll('.gallery-item');
+  const galItems = document.querySelectorAll('.gallery-item, .photo-item');
   if (catBtns.length) {
     catBtns.forEach(btn => {
       btn.addEventListener('click', () => {
